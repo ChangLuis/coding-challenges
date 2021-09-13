@@ -1,11 +1,7 @@
+@import 'styles/_dark-mode';
+
 .app {
-  padding: 10%;
-  max-width: 1000px;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  box-sizing: content-box;
+  @include layout();
 
   &__dark-mode-btn {
     border: 0;

@@ -1,4 +1,16 @@
+@mixin layout() {
+  padding: 10%;
+  margin: 10%;
+  max-width: 1000px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  box-sizing: content-box;
+}
+
 .dark-mode {
+  @include layout();
   background: #121212;
 
   p {
